@@ -1,5 +1,5 @@
 # nodejs-prod-server-template
-node.js production server template , include logs , node cache , logger, routes and etc.
+node.js production server template , include logs , node cache for error , logger, route ,  node mailer,automatic tests mocha & chai , etc .
 
 
 ## Getting Started
@@ -72,7 +72,6 @@ npm run test
 
 ```
 
-example payloads can be found at the example folder.
 
 
 ### coding style 
