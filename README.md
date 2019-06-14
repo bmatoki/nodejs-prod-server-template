@@ -1,5 +1,5 @@
 # nodejs-prod-server-template
-node.js production server template , include logs , node cache for error , logger, route ,  node mailer,automatic tests mocha & chai , etc .
+node.js production server template , include logs , node cache for error , logger, route ,  node mailer,automatic tests mocha & chai , docker , pm2.
 
 
 ## Getting Started
