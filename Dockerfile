@@ -3,6 +3,7 @@ FROM node:8.12.0-alpine
 WORKDIR /usr/src/app
 # Install deps
 RUN npm install -g nodemon@1.11.0
+RUN npm install -g pm2
 COPY ./package* ./
 RUN npm install && \
     npm cache clean --force
@@ -11,4 +12,4 @@ COPY . .
 EXPOSE 8080
 EXPOSE 5858
 # Start the app
-CMD ["pm2-runtime", "ecosystem.config.js"]
+CMD ["pm2", "start", "ecosystem.config.js"]
